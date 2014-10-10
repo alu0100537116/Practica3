@@ -1,0 +1,8 @@
+18. ¿Cual es el resultado de la siguiente operacion?
+ world
+ => nil 
+2.0.0p247 :002 > 
+
+21.¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete de Ruby (ruby helloWorld.rb) y el interprete interactivo del ejercicio anterior?
+
+	No existe ninguna diferencia.
