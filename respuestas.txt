@@ -3,6 +3,50 @@
  => nil 
 2.0.0p247 :002 > 
 
+
+
+
 21.¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete de Ruby (ruby helloWorld.rb) y el interprete interactivo del ejercicio anterior?
 
 	No existe ninguna diferencia.
+
+
+
+
+26. ¿Cual es el resultado de cada una de las siguientes operaciones?
+
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*   puts "hello world" 
+[2] pry(main)* end  
+=> nil
+[3] pry(main)> hello
+hello world
+=> nil
+[4] pry(main)> byebye
+ bye bye world
+=> nil
+[5] pry(main)> x = "changed"
+=> "changed"
+[6] pry(main)> exit
+ => nil 
+2.0.0p247 :017 > 
+2.0.0p247 :018 >   #program resumes here ( after pry session)
+2.0.0p247 :019 >   puts "program resumes here. Value of x is : #{x}."
+program resumes here. Value of x is : changed.
+ => nil 
+2.0.0p247 :020 >
+
+
+
+
+
+27. ¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete interactivo y con pry?
+$ pry helloworld.rb 
+hello world
+
+Con el interprete interactivo, podemos subsanar codigo en tiempo de ejecución, crear metodos, etc.
+
+
